@@ -25,15 +25,6 @@ Before diving into React.js development, it's recommended to have a basic unders
 - ES6+ features like arrow functions, destructuring, and classes
 - Node.js and npm (Node Package Manager)
 
-### Getting Started
-
-To get started, clone this repository to your local machine:
-
-```bash
-git clone https://github.com/your-username/react-comprehensive-guide.git
-```
-
-Navigate to the repository directory, where you'll find resources categorized by skill level.
 
 ### Basics
 
