@@ -1,0 +1,170 @@
+ :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  padding: 0px;
+  margin: 0px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+
+}
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+
+
+#root{
+
+
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+ 
+   
+   
+  
+}
+
+.to-do{
+
+  width: 550px;
+ height:fit-content;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 40px;
+  background: url('https://clipart-library.com/new_gallery/31-318545_moon-png.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  border: 2px solid white;
+  z-index: 1000;
+
+  
+  
+  
+ 
+  
+
+}
+h1{
+  margin: 20px;
+}
+li{
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  
+ 
+}
+span{
+  margin: 10px;
+  padding: 10px;
+  width:250px;
+  border: 5px solid white;
+  border-radius: 20px;
+  color: black;
+  font-weight: 600;
+  font-size:20px;
+  background-color: #ffffffed;
+}
+li button{
+  margin: 5px;
+  width: auto;
+ padding: 10px;
+ border-radius: 20px;
+ font-weight: 600;
+  font-size:12px;
+  background-color: #ffffffed;
+  color: black;
+ border: none;
+ 
+ 
+}
+li button:hover{
+  transform: scale(1.2);
+  box-shadow: 2px 2px 12px 2px;
+
+}
+li .delete-button{
+background-color: rgb(194, 107, 107);
+color: white;
+
+}
+li .move-button{
+  background:linear-gradient(to left, rgb(183, 241, 183) 40% ,rgb(101, 100, 97) 30%, rgb(222, 222, 28) 10%);
+  color: rgb(18, 61, 76);
+}
+input{
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  color: black;
+  width: 250px;
+}
+input:focus{
+  outline: none;
+}
+.add-btn{
+  width: 60px;
+  padding: 10px;
+  margin-left: 15px;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size:12px;
+  background-color: #ffffffed;
+  color: black;
+  border: none;
+}
+
+
+@media only screen and (max-width: 768px)
+{
+  
+  .to-do{
+    width: auto;
+    margin: 60px;
+ 
+  }
+ li button{
+    width: auto;
+ 
+  }
+  .add-btn{
+    width: auto;
+  }
+  input{
+    width: 120px;
+  }
+
+}
+@media only screen and (max-width: 488px)
+{
+  li button:nth-last-child(-n+2) 
+  {
+    display: none;
+    
+  }
+  button{
+    width: 80px;
+    font-size: 12px;
+  }
+}
+
