@@ -1,0 +1,73 @@
+body{
+    display: flex;
+flex-direction: column;
+
+align-items: center;    
+}
+.stopwatch{
+     border: 5px solid black;
+     width:350px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border-radius: 50px;
+    min-height: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: rgb(111, 102, 102);
+     overflow: hidden;
+}
+button{
+     width: 80px;
+     padding: 10px;
+     border: none;
+     margin: 5px;
+     font-family:monospace;
+     font-weight: 900;
+     font-size: 20px;
+     box-shadow: 4px 0px 15px 4px rgba(82, 82, 82, 0.211);
+     transition: all 0.5s;
+
+
+}
+button:nth-child(1)
+{
+    background-color: rgb(125, 227, 111);
+    color: white;
+    border-radius: 10px;
+
+}
+button:nth-child(1):hover{
+    background-color: rgb(98, 188, 86);
+
+}
+button:nth-child(2)
+{
+    background-color: rgb(255, 91, 91);
+    color: white;
+    border-radius: 10px;
+}
+button:nth-child(2):hover{
+    background-color: rgb(205, 16, 16);
+
+}
+button:nth-child(3)
+{
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+
+}
+button:nth-child(3):hover{
+    background-color: rgb(151, 107, 27);
+
+}
+
+.display{
+padding: 8px;
+ width: 100%;
+  font-size: 3rem;
+  color: whitesmoke;
+ display: flex;
+ justify-content: center;
+}
